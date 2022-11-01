@@ -1,7 +1,6 @@
 # see content from kids can code: http://kidscancode.org/blog/
 
 # import libraries and modules
-from ctypes.wintypes import RGB
 import pygame as pg
 from pygame.sprite import Sprite
 import random
