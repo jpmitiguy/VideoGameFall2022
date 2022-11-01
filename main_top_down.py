@@ -5,10 +5,16 @@
 # import libraries
 import pygame as pg
 from pygame.sprite import Sprite
-import time
 from random import randint
 from settings import *
 import os
+
+# See lines 255-269 for Goals, Rules, Feedback, Freedom
+
+# Innovations:
+# Mobs are now coins
+# Enemies can kill the player, also move randomly
+# Enemies move faster as your score increases
 
 # setup asset folders
 game_folder = os.path.dirname(__file__)
